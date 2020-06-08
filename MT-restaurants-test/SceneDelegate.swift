@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  MT-restaurants-test
 //
-//  Created by Argueta, Adan (CHICO-C) on 6/7/20.
+//  Created by Argueta, Adan (CHICO-C) on 6/8/20.
 //  Copyright © 2020 Argueta, Adan. All rights reserved.
 //
 
@@ -50,7 +50,5 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Save changes in the application's managed object context when the application transitions to the background.
         (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
     }
-
-
 }
 

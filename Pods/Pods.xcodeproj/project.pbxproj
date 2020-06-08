@@ -1,0 +1,918 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01832C0576B651B643CB1349614A991E /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 740181A7AACCDDE4610267269C76FB09 /* heart.png */; };
+		0B726C94DE1AD53239958E7DCB60906C /* FCAlertView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 284A19712C33B0FAABB91083A1896388 /* FCAlertView.bundle */; };
+		140A4E0F0D51EAC97450004039193978 /* FCAlertView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1F4A2519B5DD7A09A3073A77ACBBB70 /* FCAlertView-dummy.m */; };
+		5E98C3639FF374338B880F87460A08BB /* Pods-MT-restaurants-test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5DBBEC6879F5AA9834229A6E8667EDE /* Pods-MT-restaurants-test-dummy.m */; };
+		7DFA13979653201E162E8FB48A80FD7F /* FCAlertView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BFB473A88F92F74426D8019764E74E0F /* FCAlertView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8C5EA86A44072105E842E94C14FD8B4 /* FCAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7257C197E87E991E14AEA7449CE96DEA /* FCAlertView.m */; };
+		AEF2116E3DB10D1C755D5589DEC932F9 /* alert-round.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B1DA13A9291A02956699F81582B5E3F /* alert-round.png */; };
+		AF0DF8BF5630F20BEEBC84182DB60D02 /* Pods-MT-restaurants-testTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0808F07E2BBD539FC99B4BC755B6CD24 /* Pods-MT-restaurants-testTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4017FB5658B9E77238B122BA5998D04 /* Pods-MT-restaurants-testTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A6A57263DE042D5DBBFD902D079577 /* Pods-MT-restaurants-testTests-dummy.m */; };
+		B8D2AA91C6786985097A57D220F3930F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BD783FFD1B2472D543E60FC431DF191A /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FB20C893703150A237172CF82E2A71D /* star.png */; };
+		C3BFDB78CC4009D4A6536E9680C5A0CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CBE0C770E8BF14E8035CEB0271D62D56 /* Pods-MT-restaurants-test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50E2B3A24E916114245874D0860F634A /* Pods-MT-restaurants-test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA80C56229C3B025A4C326116D1A310E /* close-round.png in Resources */ = {isa = PBXBuildFile; fileRef = A4439D980A0B395DCA0FA1257F124952 /* close-round.png */; };
+		DDBB63BFE177839AE375ED9F9BB22E59 /* FCAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 07D9BD4066229166C1EED3B5FC1A6019 /* FCAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E01C46CF7220526719672E62FAB7DC1A /* checkmark-round.png in Resources */ = {isa = PBXBuildFile; fileRef = 194F549801E07DD9A821F1C6913514DE /* checkmark-round.png */; };
+		F712594E17055C7279D2B0EF9C5C1DAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		827FB1B59E583FC4DF5B8BE42EC2E951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33E77F245216BBF60BD43608997D0AD5;
+			remoteInfo = "FCAlertView-FCAlertView";
+		};
+		92860C18B55708AC24559DB7083FE03B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 000A2C3C7CC5A8B1186551DF66432661;
+			remoteInfo = FCAlertView;
+		};
+		B99115C6BE732CDF35C542623CA29BE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6347917CEC1A3169F3343923DDDCA644;
+			remoteInfo = "Pods-MT-restaurants-test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0497EC527017CF4054B5615A5F9183B3 /* Pods_MT_restaurants_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MT_restaurants_testTests.framework; path = "Pods-MT-restaurants-testTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D9BD4066229166C1EED3B5FC1A6019 /* FCAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FCAlertView.h; path = FCAlertView/Classes/FCAlertView.h; sourceTree = "<group>"; };
+		0808F07E2BBD539FC99B4BC755B6CD24 /* Pods-MT-restaurants-testTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MT-restaurants-testTests-umbrella.h"; sourceTree = "<group>"; };
+		11A6A57263DE042D5DBBFD902D079577 /* Pods-MT-restaurants-testTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MT-restaurants-testTests-dummy.m"; sourceTree = "<group>"; };
+		16DD4380E7C19714944ADF7342EBE293 /* Pods-MT-restaurants-test-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MT-restaurants-test-Info.plist"; sourceTree = "<group>"; };
+		194F549801E07DD9A821F1C6913514DE /* checkmark-round.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "checkmark-round.png"; path = "FCAlertView/Assets/checkmark-round.png"; sourceTree = "<group>"; };
+		27DC62E6DB38F25AB1A019EA6B3FD7FF /* Pods-MT-restaurants-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MT-restaurants-test.debug.xcconfig"; sourceTree = "<group>"; };
+		284A19712C33B0FAABB91083A1896388 /* FCAlertView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = FCAlertView.bundle; path = "FCAlertView-FCAlertView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B1DA13A9291A02956699F81582B5E3F /* alert-round.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "alert-round.png"; path = "FCAlertView/Assets/alert-round.png"; sourceTree = "<group>"; };
+		2DA0BCE6DB14A56040A870C766546819 /* Pods-MT-restaurants-testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MT-restaurants-testTests.release.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3BA29B671EA4DA6B73C1C3CD9FCC450F /* Pods-MT-restaurants-testTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MT-restaurants-testTests.modulemap"; sourceTree = "<group>"; };
+		3FB20C893703150A237172CF82E2A71D /* star.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = star.png; path = FCAlertView/Assets/star.png; sourceTree = "<group>"; };
+		42858C02CE4723B01A9BCBF4A7E4F4A3 /* Pods-MT-restaurants-testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MT-restaurants-testTests.debug.xcconfig"; sourceTree = "<group>"; };
+		46939556C8CC0A9B056D800F17986BDE /* FCAlertView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FCAlertView.xcconfig; sourceTree = "<group>"; };
+		4C7EFBE0F7853FD8B5B667284512A5FF /* Pods-MT-restaurants-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MT-restaurants-test.release.xcconfig"; sourceTree = "<group>"; };
+		50E2B3A24E916114245874D0860F634A /* Pods-MT-restaurants-test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MT-restaurants-test-umbrella.h"; sourceTree = "<group>"; };
+		60FFF04150694AB3B90A7FA69D7AFC3C /* ResourceBundle-FCAlertView-FCAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-FCAlertView-FCAlertView-Info.plist"; sourceTree = "<group>"; };
+		7257C197E87E991E14AEA7449CE96DEA /* FCAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FCAlertView.m; path = FCAlertView/Classes/FCAlertView.m; sourceTree = "<group>"; };
+		740181A7AACCDDE4610267269C76FB09 /* heart.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = heart.png; path = FCAlertView/Assets/heart.png; sourceTree = "<group>"; };
+		784154F0C8AC8A82986FDD8B1DABA19A /* Pods-MT-restaurants-test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MT-restaurants-test-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7C606CA06379F720E93A632634F95D49 /* Pods-MT-restaurants-test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MT-restaurants-test.modulemap"; sourceTree = "<group>"; };
+		7D5D93D72D8E88B6F6E83329A1BBE8FC /* FCAlertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FCAlertView.framework; path = FCAlertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		844AC962A6CF04F26925AC09A8AA72C8 /* Pods-MT-restaurants-test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MT-restaurants-test-frameworks.sh"; sourceTree = "<group>"; };
+		91C904A2366419F8306B184992EAF4DB /* FCAlertView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCAlertView-prefix.pch"; sourceTree = "<group>"; };
+		971490465B52C9DBB8C2FD98DD50855A /* FCAlertView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FCAlertView.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4439D980A0B395DCA0FA1257F124952 /* close-round.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "close-round.png"; path = "FCAlertView/Assets/close-round.png"; sourceTree = "<group>"; };
+		B1F4A2519B5DD7A09A3073A77ACBBB70 /* FCAlertView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FCAlertView-dummy.m"; sourceTree = "<group>"; };
+		B5DBBEC6879F5AA9834229A6E8667EDE /* Pods-MT-restaurants-test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MT-restaurants-test-dummy.m"; sourceTree = "<group>"; };
+		BFB473A88F92F74426D8019764E74E0F /* FCAlertView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FCAlertView-umbrella.h"; sourceTree = "<group>"; };
+		C0D737D4F6FF0C01F56C3318F3FD1167 /* Pods-MT-restaurants-testTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MT-restaurants-testTests-Info.plist"; sourceTree = "<group>"; };
+		D382CF830D75BC7C0E0F176F5AE0FC15 /* Pods-MT-restaurants-test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MT-restaurants-test-acknowledgements.plist"; sourceTree = "<group>"; };
+		DCEA04D886A9123F4584D4E276D145B2 /* Pods-MT-restaurants-testTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MT-restaurants-testTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F0770AC5543AED3075ACA53EC84F797B /* Pods_MT_restaurants_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MT_restaurants_test.framework; path = "Pods-MT-restaurants-test.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F088C95589586B31A32E84B8891749CA /* FCAlertView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FCAlertView-Info.plist"; sourceTree = "<group>"; };
+		FF4623AA0C24384CD857295D9EB857A3 /* Pods-MT-restaurants-testTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MT-restaurants-testTests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2827E990B7893906F5D9ECFA4E84D17A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEE0D72030A1754E7D9C97CCBE4A4112 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D2AA91C6786985097A57D220F3930F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF8B89C12D4DA1396A96759EC9FBF55E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3BFDB78CC4009D4A6536E9680C5A0CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC00DCC3061DB6F26979E8EC06B42E3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F712594E17055C7279D2B0EF9C5C1DAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0256B2A5E96313814F06AE3CC09DFE4B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				971490465B52C9DBB8C2FD98DD50855A /* FCAlertView.modulemap */,
+				46939556C8CC0A9B056D800F17986BDE /* FCAlertView.xcconfig */,
+				B1F4A2519B5DD7A09A3073A77ACBBB70 /* FCAlertView-dummy.m */,
+				F088C95589586B31A32E84B8891749CA /* FCAlertView-Info.plist */,
+				91C904A2366419F8306B184992EAF4DB /* FCAlertView-prefix.pch */,
+				BFB473A88F92F74426D8019764E74E0F /* FCAlertView-umbrella.h */,
+				60FFF04150694AB3B90A7FA69D7AFC3C /* ResourceBundle-FCAlertView-FCAlertView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FCAlertView";
+			sourceTree = "<group>";
+		};
+		2CDAEFE052703CB68451B08F91039F99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B7F7996215EFBA7A59FB78AB2E87D3F /* FCAlertView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		47B0E96767030A61ED0D3695DE53EB87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				284A19712C33B0FAABB91083A1896388 /* FCAlertView.bundle */,
+				7D5D93D72D8E88B6F6E83329A1BBE8FC /* FCAlertView.framework */,
+				F0770AC5543AED3075ACA53EC84F797B /* Pods_MT_restaurants_test.framework */,
+				0497EC527017CF4054B5615A5F9183B3 /* Pods_MT_restaurants_testTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B7F7996215EFBA7A59FB78AB2E87D3F /* FCAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				07D9BD4066229166C1EED3B5FC1A6019 /* FCAlertView.h */,
+				7257C197E87E991E14AEA7449CE96DEA /* FCAlertView.m */,
+				97DFAF9BBBA09B39CC48BA7F99A430A4 /* Resources */,
+				0256B2A5E96313814F06AE3CC09DFE4B /* Support Files */,
+			);
+			name = FCAlertView;
+			path = FCAlertView;
+			sourceTree = "<group>";
+		};
+		7E299C99A121CAD3EC5CFF80F1747F8B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5E58DB83A9434C5CB961212621E537E /* Pods-MT-restaurants-test */,
+				B2F14324BC2668CDA240B0146BB5D543 /* Pods-MT-restaurants-testTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		97DFAF9BBBA09B39CC48BA7F99A430A4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2B1DA13A9291A02956699F81582B5E3F /* alert-round.png */,
+				194F549801E07DD9A821F1C6913514DE /* checkmark-round.png */,
+				A4439D980A0B395DCA0FA1257F124952 /* close-round.png */,
+				740181A7AACCDDE4610267269C76FB09 /* heart.png */,
+				3FB20C893703150A237172CF82E2A71D /* star.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		A5E58DB83A9434C5CB961212621E537E /* Pods-MT-restaurants-test */ = {
+			isa = PBXGroup;
+			children = (
+				7C606CA06379F720E93A632634F95D49 /* Pods-MT-restaurants-test.modulemap */,
+				784154F0C8AC8A82986FDD8B1DABA19A /* Pods-MT-restaurants-test-acknowledgements.markdown */,
+				D382CF830D75BC7C0E0F176F5AE0FC15 /* Pods-MT-restaurants-test-acknowledgements.plist */,
+				B5DBBEC6879F5AA9834229A6E8667EDE /* Pods-MT-restaurants-test-dummy.m */,
+				844AC962A6CF04F26925AC09A8AA72C8 /* Pods-MT-restaurants-test-frameworks.sh */,
+				16DD4380E7C19714944ADF7342EBE293 /* Pods-MT-restaurants-test-Info.plist */,
+				50E2B3A24E916114245874D0860F634A /* Pods-MT-restaurants-test-umbrella.h */,
+				27DC62E6DB38F25AB1A019EA6B3FD7FF /* Pods-MT-restaurants-test.debug.xcconfig */,
+				4C7EFBE0F7853FD8B5B667284512A5FF /* Pods-MT-restaurants-test.release.xcconfig */,
+			);
+			name = "Pods-MT-restaurants-test";
+			path = "Target Support Files/Pods-MT-restaurants-test";
+			sourceTree = "<group>";
+		};
+		B2F14324BC2668CDA240B0146BB5D543 /* Pods-MT-restaurants-testTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BA29B671EA4DA6B73C1C3CD9FCC450F /* Pods-MT-restaurants-testTests.modulemap */,
+				DCEA04D886A9123F4584D4E276D145B2 /* Pods-MT-restaurants-testTests-acknowledgements.markdown */,
+				FF4623AA0C24384CD857295D9EB857A3 /* Pods-MT-restaurants-testTests-acknowledgements.plist */,
+				11A6A57263DE042D5DBBFD902D079577 /* Pods-MT-restaurants-testTests-dummy.m */,
+				C0D737D4F6FF0C01F56C3318F3FD1167 /* Pods-MT-restaurants-testTests-Info.plist */,
+				0808F07E2BBD539FC99B4BC755B6CD24 /* Pods-MT-restaurants-testTests-umbrella.h */,
+				42858C02CE4723B01A9BCBF4A7E4F4A3 /* Pods-MT-restaurants-testTests.debug.xcconfig */,
+				2DA0BCE6DB14A56040A870C766546819 /* Pods-MT-restaurants-testTests.release.xcconfig */,
+			);
+			name = "Pods-MT-restaurants-testTests";
+			path = "Target Support Files/Pods-MT-restaurants-testTests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2CDAEFE052703CB68451B08F91039F99 /* Pods */,
+				47B0E96767030A61ED0D3695DE53EB87 /* Products */,
+				7E299C99A121CAD3EC5CFF80F1747F8B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E0DB8A4900FE628FC4F7FD4D7B5CCD7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DFA13979653201E162E8FB48A80FD7F /* FCAlertView-umbrella.h in Headers */,
+				DDBB63BFE177839AE375ED9F9BB22E59 /* FCAlertView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B3FC56156809171CFAAA87425D0D3CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBE0C770E8BF14E8035CEB0271D62D56 /* Pods-MT-restaurants-test-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B3778EA948BB46EF89FA9306DA95D16 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0DF8BF5630F20BEEBC84182DB60D02 /* Pods-MT-restaurants-testTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		000A2C3C7CC5A8B1186551DF66432661 /* FCAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECEAA12C4F98017B395A64C6DEE1CFEE /* Build configuration list for PBXNativeTarget "FCAlertView" */;
+			buildPhases = (
+				1E0DB8A4900FE628FC4F7FD4D7B5CCD7 /* Headers */,
+				404CF51CBFE9A1A1C062A7F82CBDA96F /* Sources */,
+				BF8B89C12D4DA1396A96759EC9FBF55E /* Frameworks */,
+				3BF19DF29C457A6804B94CC09E7A3D26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10E963B47E33EB32068C2B91BB2782C9 /* PBXTargetDependency */,
+			);
+			name = FCAlertView;
+			productName = FCAlertView;
+			productReference = 7D5D93D72D8E88B6F6E83329A1BBE8FC /* FCAlertView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		33E77F245216BBF60BD43608997D0AD5 /* FCAlertView-FCAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00C10F6DD06049CAAE030A569C782F2B /* Build configuration list for PBXNativeTarget "FCAlertView-FCAlertView" */;
+			buildPhases = (
+				5E9FCE4DC2E04A8EB9577412E5FB01CD /* Sources */,
+				2827E990B7893906F5D9ECFA4E84D17A /* Frameworks */,
+				539A4161CC719BD875685995819200E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FCAlertView-FCAlertView";
+			productName = "FCAlertView-FCAlertView";
+			productReference = 284A19712C33B0FAABB91083A1896388 /* FCAlertView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		6347917CEC1A3169F3343923DDDCA644 /* Pods-MT-restaurants-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0CFFC03E7E4FFBD73D2C4A7DA9D1E31 /* Build configuration list for PBXNativeTarget "Pods-MT-restaurants-test" */;
+			buildPhases = (
+				2B3FC56156809171CFAAA87425D0D3CD /* Headers */,
+				4F071637F91B25442998667363E10600 /* Sources */,
+				CC00DCC3061DB6F26979E8EC06B42E3E /* Frameworks */,
+				2AC071B0AFD3F092639A7FBBA556C54F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A304E362CB97A8B948C7A1575F77DF59 /* PBXTargetDependency */,
+			);
+			name = "Pods-MT-restaurants-test";
+			productName = "Pods-MT-restaurants-test";
+			productReference = F0770AC5543AED3075ACA53EC84F797B /* Pods_MT_restaurants_test.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D61857A214480EFF2B522E7DB3392A88 /* Pods-MT-restaurants-testTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 790F212158A02562588293AF0C58F1AE /* Build configuration list for PBXNativeTarget "Pods-MT-restaurants-testTests" */;
+			buildPhases = (
+				3B3778EA948BB46EF89FA9306DA95D16 /* Headers */,
+				4386FA39B377F739C1D8F8B1CF30D743 /* Sources */,
+				AEE0D72030A1754E7D9C97CCBE4A4112 /* Frameworks */,
+				2A8AA561FA922041E53146D6826ABDB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3BF825DA4B20DF72F427537C03267A7 /* PBXTargetDependency */,
+			);
+			name = "Pods-MT-restaurants-testTests";
+			productName = "Pods-MT-restaurants-testTests";
+			productReference = 0497EC527017CF4054B5615A5F9183B3 /* Pods_MT_restaurants_testTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 47B0E96767030A61ED0D3695DE53EB87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000A2C3C7CC5A8B1186551DF66432661 /* FCAlertView */,
+				33E77F245216BBF60BD43608997D0AD5 /* FCAlertView-FCAlertView */,
+				6347917CEC1A3169F3343923DDDCA644 /* Pods-MT-restaurants-test */,
+				D61857A214480EFF2B522E7DB3392A88 /* Pods-MT-restaurants-testTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A8AA561FA922041E53146D6826ABDB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AC071B0AFD3F092639A7FBBA556C54F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BF19DF29C457A6804B94CC09E7A3D26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B726C94DE1AD53239958E7DCB60906C /* FCAlertView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		539A4161CC719BD875685995819200E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEF2116E3DB10D1C755D5589DEC932F9 /* alert-round.png in Resources */,
+				E01C46CF7220526719672E62FAB7DC1A /* checkmark-round.png in Resources */,
+				DA80C56229C3B025A4C326116D1A310E /* close-round.png in Resources */,
+				01832C0576B651B643CB1349614A991E /* heart.png in Resources */,
+				BD783FFD1B2472D543E60FC431DF191A /* star.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		404CF51CBFE9A1A1C062A7F82CBDA96F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140A4E0F0D51EAC97450004039193978 /* FCAlertView-dummy.m in Sources */,
+				A8C5EA86A44072105E842E94C14FD8B4 /* FCAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4386FA39B377F739C1D8F8B1CF30D743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4017FB5658B9E77238B122BA5998D04 /* Pods-MT-restaurants-testTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F071637F91B25442998667363E10600 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E98C3639FF374338B880F87460A08BB /* Pods-MT-restaurants-test-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E9FCE4DC2E04A8EB9577412E5FB01CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10E963B47E33EB32068C2B91BB2782C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "FCAlertView-FCAlertView";
+			target = 33E77F245216BBF60BD43608997D0AD5 /* FCAlertView-FCAlertView */;
+			targetProxy = 827FB1B59E583FC4DF5B8BE42EC2E951 /* PBXContainerItemProxy */;
+		};
+		A304E362CB97A8B948C7A1575F77DF59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FCAlertView;
+			target = 000A2C3C7CC5A8B1186551DF66432661 /* FCAlertView */;
+			targetProxy = 92860C18B55708AC24559DB7083FE03B /* PBXContainerItemProxy */;
+		};
+		F3BF825DA4B20DF72F427537C03267A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MT-restaurants-test";
+			target = 6347917CEC1A3169F3343923DDDCA644 /* Pods-MT-restaurants-test */;
+			targetProxy = B99115C6BE732CDF35C542623CA29BE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		18EEFD0533E5C2B58AA1AE16DE42CB9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46939556C8CC0A9B056D800F17986BDE /* FCAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FCAlertView";
+				IBSC_MODULE = FCAlertView;
+				INFOPLIST_FILE = "Target Support Files/FCAlertView/ResourceBundle-FCAlertView-FCAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FCAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		2B57F9787E3FF24922F5D0CF3B34FFBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C7EFBE0F7853FD8B5B667284512A5FF /* Pods-MT-restaurants-test.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MT-restaurants-test/Pods-MT-restaurants-test-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MT-restaurants-test/Pods-MT-restaurants-test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5961DC84FF7A0489BDD999FDE6B82CA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46939556C8CC0A9B056D800F17986BDE /* FCAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FCAlertView/FCAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FCAlertView/FCAlertView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FCAlertView/FCAlertView.modulemap";
+				PRODUCT_MODULE_NAME = FCAlertView;
+				PRODUCT_NAME = FCAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5C87B7E625037B824F3FC172FC2EFA9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46939556C8CC0A9B056D800F17986BDE /* FCAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FCAlertView/FCAlertView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FCAlertView/FCAlertView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FCAlertView/FCAlertView.modulemap";
+				PRODUCT_MODULE_NAME = FCAlertView;
+				PRODUCT_NAME = FCAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A9908BDC0F93508ED1B3B5E99D8F5A73 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46939556C8CC0A9B056D800F17986BDE /* FCAlertView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/FCAlertView";
+				IBSC_MODULE = FCAlertView;
+				INFOPLIST_FILE = "Target Support Files/FCAlertView/ResourceBundle-FCAlertView-FCAlertView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = FCAlertView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		AC8539122366CC9E1D444D5F99B21702 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27DC62E6DB38F25AB1A019EA6B3FD7FF /* Pods-MT-restaurants-test.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MT-restaurants-test/Pods-MT-restaurants-test-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MT-restaurants-test/Pods-MT-restaurants-test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B75542665E227A4A13AA74A309794698 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DA0BCE6DB14A56040A870C766546819 /* Pods-MT-restaurants-testTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MT-restaurants-testTests/Pods-MT-restaurants-testTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MT-restaurants-testTests/Pods-MT-restaurants-testTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC39FF4EFA8E852B5CBE896C42667988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42858C02CE4723B01A9BCBF4A7E4F4A3 /* Pods-MT-restaurants-testTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MT-restaurants-testTests/Pods-MT-restaurants-testTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MT-restaurants-testTests/Pods-MT-restaurants-testTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00C10F6DD06049CAAE030A569C782F2B /* Build configuration list for PBXNativeTarget "FCAlertView-FCAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9908BDC0F93508ED1B3B5E99D8F5A73 /* Debug */,
+				18EEFD0533E5C2B58AA1AE16DE42CB9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
+				ECB437504DF805BD96CAABF97400B526 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		790F212158A02562588293AF0C58F1AE /* Build configuration list for PBXNativeTarget "Pods-MT-restaurants-testTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC39FF4EFA8E852B5CBE896C42667988 /* Debug */,
+				B75542665E227A4A13AA74A309794698 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0CFFC03E7E4FFBD73D2C4A7DA9D1E31 /* Build configuration list for PBXNativeTarget "Pods-MT-restaurants-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8539122366CC9E1D444D5F99B21702 /* Debug */,
+				2B57F9787E3FF24922F5D0CF3B34FFBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECEAA12C4F98017B395A64C6DEE1CFEE /* Build configuration list for PBXNativeTarget "FCAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5961DC84FF7A0489BDD999FDE6B82CA2 /* Debug */,
+				5C87B7E625037B824F3FC172FC2EFA9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

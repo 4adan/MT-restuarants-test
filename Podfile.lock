@@ -1,0 +1,16 @@
+PODS:
+  - FCAlertView (1.4.0)
+
+DEPENDENCIES:
+  - FCAlertView
+
+SPEC REPOS:
+  trunk:
+    - FCAlertView
+
+SPEC CHECKSUMS:
+  FCAlertView: fdddd63381898c1d1a5a20c9f084fbd2c6d12f8b
+
+PODFILE CHECKSUM: 7ec526c8a03c9fe05892a2e8edf4071f9a66c53d
+
+COCOAPODS: 1.8.4
